@@ -27,14 +27,15 @@ isSignIn("Arief", "a@demo.com")
 
 
 // arrow function
-let isLogIn =(name: string, email: string, isPaid: boolean)=>{ 
-
+let variable = (s:string):string=>{
+    return ""
 }
+let isLogIn =(name: string, email: string, isPaid: boolean)=>{ }
 isLogIn("Arief","email.com",true)
 
 
 let marvelHeros = ["thor", "caption","ironman"]
-
+ marvelHeros.map((hero)=>{})
 
 
 export{}
